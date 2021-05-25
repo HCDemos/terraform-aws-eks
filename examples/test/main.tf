@@ -15,8 +15,8 @@ provider "kubernetes" {
 }
 
 module "eks" {
-  #source          = "terraform-aws-modules/eks/aws"
-  source = "../.."
+  source          = "terraform-aws-modules/eks/aws"
+  #source = "../.."
   cluster_name    = "my-eks-cluster"
   cluster_version = "1.19"
   subnets         = ["subnet-97b668fc","subnet-c43e2abe","subnet-e8ff83a4"]
