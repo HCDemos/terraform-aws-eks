@@ -6,9 +6,5 @@ terraform {
     local      = ">= 1.4"
     random     = ">= 2.1"
     kubernetes = ">= 1.11.1"
-    http = {
-      source  = "terraform-aws-modules/http"
-      version = ">= 2.4.1"
-    }
   }
 }
