@@ -39,10 +39,10 @@ variable "map_users" {
 
   default = [
     {
-      userarn  = "arn:aws:iam::711129375688:user/dpeacock@hashicorp.com"
-      #userarn  = "arn:aws:iam::011965797169:user/peada04"
-      username = "dpeacock@hashicorp.com"
-      #username  = "peada04@yahoo.com"
+      #userarn  = "arn:aws:iam::711129375688:user/dpeacock@hashicorp.com"
+      userarn  = "arn:aws:iam::011965797169:user/peada04"
+      #username = "dpeacock@hashicorp.com"
+      username  = "peada04@yahoo.com"
       groups   = ["system:masters", "developers"]
     },
   ]
